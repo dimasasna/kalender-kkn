@@ -30,10 +30,20 @@ body {
   padding: 5px;
   color: #fff;
   display: flex;
+  justify-content: center;
+  align-content: center;
   margin-top: 20px;
   border-radius: 10px;
   background-color: #373c4f;
 }
+
+@media only screen and (max-width: 762px) {
+  .container{
+    width: 95%; /* Mengubah lebar menjadi 100% */
+   /* Mengubah margin menjadi 0 dan 20px */
+  }
+}
+
 .left {
   width: 60%;
   padding: 20px;
